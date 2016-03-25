@@ -28,9 +28,6 @@ def copyVec_4(L):
     C=[L[j] for j in range(len(L))]
     return(C)
 
-####  Functions for you to finish
-
-
 def ScalarMult(s,V):
     return [i * s for i in V]
 
