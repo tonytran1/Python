@@ -5,8 +5,6 @@
 """
 Vector Functions
 
-copy these three functions from your finished vectorFunctions.py file
-
 """
 
 def ScalarMult(s,V):
@@ -31,7 +29,6 @@ Matrix Functions
 """
 
 
-
 def showMatrix(mat):
     "Print out matrix"
     for row in mat:
@@ -46,8 +43,6 @@ def cols(mat):
     "return number of cols"
     return(len(mat[0]))
  
-
-#### Functions for you to finish
 
 def GetCol(mat, col):
     return [row[col] for row in mat]
